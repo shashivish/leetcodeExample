@@ -30,7 +30,6 @@ public class SingleLinkedList<T> {
             return;
         }
 
-
         Node node = head;
         while (node.next != null) {
             System.out.println(node.value);
